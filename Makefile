@@ -2,8 +2,8 @@ PREFIX?=/usr/local
 BUILD_TOOL?=xcodebuild
 BINARIES_FOLDER=/usr/local/bin
 
-EXECUTABLE_NAME = swiftplate
-XCODEFLAGS=-project 'SwiftPlate.xcodeproj'
+EXECUTABLE_NAME = replicate
+XCODEFLAGS=-project 'Replicate.xcodeproj'
 
 EXECUTABLE=./build/Release/$(EXECUTABLE_NAME)
 

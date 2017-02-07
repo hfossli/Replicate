@@ -1,7 +1,7 @@
 #!/usr/bin/swift
 
 /**
- *  SwiftPlate
+ *  Replicate
  *
  *  Copyright (c) 2017 Håvard Fossli.
  *  Copyright (c) 2016 John Sundell. 
@@ -368,7 +368,7 @@ struct Program {
     }
     
     private func cloneZipUrl(_ url: String, to destination: String) throws -> Config {
-        let temporaryFolder = "\(destination.withoutSuffix("/"))_swiftplate_download"
+        let temporaryFolder = "\(destination.withoutSuffix("/"))_replicate_download"
         try? FileManager().removeItem(atPath: temporaryFolder)
         try prepareDestinationFolder(temporaryFolder)
         try performCommand(description: "Downloading template \(url)") {
@@ -399,14 +399,14 @@ struct Program {
         
         if templateIsDirectory.boolValue {
             templateDirectory = template
-            jsonPath = (templateDirectory as NSString).appendingPathComponent("swiftplate.json")
+            jsonPath = (templateDirectory as NSString).appendingPathComponent("replicate.json")
         } else {
             jsonPath = template
             templateDirectory = (jsonPath as NSString).deletingLastPathComponent
         }
         
         guard FileManager().fileExists(atPath: jsonPath) else {
-            throw "Template is missing swiftplate.json file. Should be located at \(jsonPath)"
+            throw "Template is missing replicate.json file. Should be located at \(jsonPath)"
         }
         
         let config = try Config(file: jsonPath)
@@ -414,7 +414,7 @@ struct Program {
         try? FileManager().removeItem(atPath: (destination as NSString).appendingPathComponent(".DS_Store"))
         try FileManager().removeItem(atPath: destination)
         try FileManager().copyItem(atPath: templateDirectory, toPath: destination)
-        try? FileManager().removeItem(atPath: (destination as NSString).appendingPathComponent("swiftplate.json"))
+        try? FileManager().removeItem(atPath: (destination as NSString).appendingPathComponent("replicate.json"))
         return config
     }
     
@@ -439,7 +439,7 @@ struct Program {
 }
 
 do {
-    print("Welcome to the SwiftPlate project generator 🐣")
+    print("Welcome to the Replicate project generator 🐣")
     let options = try CommandLineOptionsSolver()
     let program = Program(options: options)
     try program.run()

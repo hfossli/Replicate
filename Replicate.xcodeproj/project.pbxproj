@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52CC95EA1DE1DF29000B8859 /* swiftplate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftplate; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CC95EA1DE1DF29000B8859 /* replicate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = replicate; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CC95F41DE1DF51000B8859 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
@@ -52,7 +52,7 @@
 		52CC95EB1DE1DF29000B8859 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52CC95EA1DE1DF29000B8859 /* swiftplate */,
+				52CC95EA1DE1DF29000B8859 /* replicate */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +60,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52CC95E91DE1DF29000B8859 /* SwiftPlate */ = {
+		52CC95E91DE1DF29000B8859 /* Replicate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52CC95F11DE1DF29000B8859 /* Build configuration list for PBXNativeTarget "SwiftPlate" */;
+			buildConfigurationList = 52CC95F11DE1DF29000B8859 /* Build configuration list for PBXNativeTarget "Replicate" */;
 			buildPhases = (
 				52CC95E61DE1DF29000B8859 /* Sources */,
 				52CC95E71DE1DF29000B8859 /* Frameworks */,
@@ -74,9 +74,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftPlate;
+			name = Replicate;
 			productName = SwiftPlate;
-			productReference = 52CC95EA1DE1DF29000B8859 /* swiftplate */;
+			productReference = 52CC95EA1DE1DF29000B8859 /* replicate */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52CC95E51DE1DF29000B8859 /* Build configuration list for PBXProject "SwiftPlate" */;
+			buildConfigurationList = 52CC95E51DE1DF29000B8859 /* Build configuration list for PBXProject "Replicate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52CC95E91DE1DF29000B8859 /* SwiftPlate */,
+				52CC95E91DE1DF29000B8859 /* Replicate */,
 			);
 		};
 /* End PBXProject section */
@@ -279,7 +279,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = swiftplate;
+				PRODUCT_NAME = replicate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -291,7 +291,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = swiftplate;
+				PRODUCT_NAME = replicate;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52CC95E51DE1DF29000B8859 /* Build configuration list for PBXProject "SwiftPlate" */ = {
+		52CC95E51DE1DF29000B8859 /* Build configuration list for PBXProject "Replicate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52CC95EF1DE1DF29000B8859 /* Debug */,
@@ -308,7 +308,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52CC95F11DE1DF29000B8859 /* Build configuration list for PBXNativeTarget "SwiftPlate" */ = {
+		52CC95F11DE1DF29000B8859 /* Build configuration list for PBXNativeTarget "Replicate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52CC95F21DE1DF29000B8859 /* Debug */,

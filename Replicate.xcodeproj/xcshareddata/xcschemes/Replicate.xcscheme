@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52CC95E91DE1DF29000B8859"
-               BuildableName = "swiftplate"
-               BlueprintName = "SwiftPlate"
-               ReferencedContainer = "container:SwiftPlate.xcodeproj">
+               BuildableName = "replicate"
+               BlueprintName = "Replicate"
+               ReferencedContainer = "container:Replicate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52CC95E91DE1DF29000B8859"
-            BuildableName = "swiftplate"
-            BlueprintName = "SwiftPlate"
-            ReferencedContainer = "container:SwiftPlate.xcodeproj">
+            BuildableName = "replicate"
+            BlueprintName = "Replicate"
+            ReferencedContainer = "container:Replicate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52CC95E91DE1DF29000B8859"
-            BuildableName = "swiftplate"
-            BlueprintName = "SwiftPlate"
-            ReferencedContainer = "container:SwiftPlate.xcodeproj">
+            BuildableName = "replicate"
+            BlueprintName = "Replicate"
+            ReferencedContainer = "container:Replicate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -67,7 +67,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--template &quot;hfossli/swiftplate-ios-app&quot;"
+            argument = "--template &quot;hfossli/replicate-ios-app&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -93,9 +93,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52CC95E91DE1DF29000B8859"
-            BuildableName = "swiftplate"
-            BlueprintName = "SwiftPlate"
-            ReferencedContainer = "container:SwiftPlate.xcodeproj">
+            BuildableName = "replicate"
+            BlueprintName = "Replicate"
+            ReferencedContainer = "container:Replicate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
